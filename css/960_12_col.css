@@ -270,7 +270,7 @@ body {
 ----------------------------------------------------------------------------------------------------*/
 
 .container_12 .pull_1 {
-  left: -80px;
+  left: -40px;
 }
 
 .container_12 .pull_2 {
@@ -361,7 +361,9 @@ Move to separate stylesheet if invalid CSS is a problem.
   width: 940px;
 }
 header{
+  z-index: 1;
   overflow: hidden;
+  margin-top: -10px;
 }
 header h1{
   float: left;
@@ -376,6 +378,8 @@ header {
   color: #0a0799;
   font-family: sans-serif;
   letter-spacing: -2px;
+  background-color: green;
+  position: fixed;
 }
 footer{
   background-color: #ffaa02;
@@ -429,4 +433,10 @@ footer img {
 }
 .custom_1{
   margin-top: 35px;
+}
+.custom_2{
+  margin-top: 70px;
+}
+p{
+  text-align: justify;
 }
